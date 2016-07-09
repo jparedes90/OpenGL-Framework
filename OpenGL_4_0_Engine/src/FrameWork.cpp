@@ -77,7 +77,7 @@ void FrameWork::Run()
 //PostCondition: OpenGL window is created
 bool FrameWork::CreateOpenGLWindow(char* pTitle, int x, int y, int width, int height)
 {
-	HWND hwnd;
+	//HWND hwnd = 0;
 
 	WNDCLASSEX wc;
 
