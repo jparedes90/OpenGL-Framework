@@ -11,12 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Component.cpp" />
-    <ClCompile Include="src\CVector3.cpp" />
     <ClCompile Include="src\debug\Logger.cpp" />
     <ClCompile Include="src\Engine.cpp" />
-    <ClCompile Include="src\Entity.cpp" />
-    <ClCompile Include="src\EntityManager.cpp" />
     <ClCompile Include="src\FrameWork.cpp" />
     <ClCompile Include="src\GameComponent.cpp" />
     <ClCompile Include="src\Graphics.cpp" />
@@ -32,12 +28,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Common.h" />
-    <ClInclude Include="src\Component.h" />
-    <ClInclude Include="src\CVector3.h" />
     <ClInclude Include="src\debug\Logger.h" />
     <ClInclude Include="src\Engine.h" />
-    <ClInclude Include="src\Entity.h" />
-    <ClInclude Include="src\EntityManager.h" />
     <ClInclude Include="src\FrameWork.h" />
     <ClInclude Include="src\GameComponent.h" />
     <ClInclude Include="src\Graphics.h" />
