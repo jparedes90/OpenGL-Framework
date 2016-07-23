@@ -4,6 +4,7 @@
 #include "Graphics.h"
 #include "GameComponent.h"
 #include "ShaderManager.h"
+#include "TextureManager.h"
 
 class Engine
 {
@@ -17,6 +18,10 @@ public:
 	//Function: Initialize Engine
 	//PostCondition: Engine is initialized
 	void Initialize(GameComponent* pComponent);
+
+	//Function: Allocate Texture Manager
+	//PostCondition: Texture Manager allocated
+	void InitializeTextureManager();
 
 	//Function: Updates and Renders the Engine
 	//PostCondition: Engine is updated and rendered
@@ -43,6 +48,7 @@ private:
 	Graphics* m_graphics;
 	class SpriteBatch* m_spriteBatch;
 	ShaderManager* m_shaderManager;
+	TextureManager* m_textureManager;
 };
 
 #endif

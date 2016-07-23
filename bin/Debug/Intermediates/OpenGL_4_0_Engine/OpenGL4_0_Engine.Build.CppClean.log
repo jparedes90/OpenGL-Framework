@@ -1,6 +1,11 @@
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\opengl_4_0_engine.pdb
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\opengl_4_0_engine.idb
+c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\component.obj
+c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\cvector3.obj
+c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\logger.obj
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\engine.obj
+c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\entity.obj
+c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\entitymanager.obj
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\framework.obj
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\gamecomponent.obj
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\graphics.obj
@@ -11,6 +16,8 @@ c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\shadermanager.obj
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\spritebatch.obj
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\timer.obj
+c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\textureloader.obj
+c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\texturemanager.obj
 c:\users\admin\documents\github\opengl-framework\bin\debug\opengl4_0_engine.lib
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\opengl_4.759630ab.tlog\cl.command.1.tlog
 c:\users\admin\documents\github\opengl-framework\bin\debug\intermediates\opengl_4_0_engine\opengl_4.759630ab.tlog\cl.read.1.tlog

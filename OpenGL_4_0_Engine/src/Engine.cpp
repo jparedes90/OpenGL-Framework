@@ -12,6 +12,7 @@ Engine::Engine()
 	m_gameComponent = NULL;
 	m_spriteBatch = NULL;
 	m_shaderManager = NULL;
+	m_textureManager = NULL;
 }
 
 Engine::~Engine()
@@ -27,6 +28,12 @@ Engine::~Engine()
 	{
 		delete m_shaderManager;
 		m_shaderManager = NULL;
+	}
+
+	if (m_textureManager)
+	{
+		delete m_textureManager;
+		m_textureManager = NULL;
 	}
 
 	if(m_gameComponent)
@@ -70,7 +77,7 @@ bool Engine::InitializeGraphics(HWND pHWND)
 void Engine::Initialize(GameComponent* pComponent)
 {
 	m_shaderManager = new ShaderManager();
-	m_shaderManager->AddShader("color", "color");
+
 	if(m_graphics)
 	{
 		m_graphics->Initialize();
@@ -92,6 +99,13 @@ void Engine::Initialize(GameComponent* pComponent)
 	{
 		cout << "NO GAME COMPONENT" << endl;
 	}
+}
+
+//Function: Allocate Texture Manager
+//PostCondition: Texture Manager allocated
+void Engine::InitializeTextureManager()
+{
+	m_textureManager = new TextureManager();
 }
 
 //Function: Updates and Renders the Engine

@@ -43,6 +43,13 @@
     <ClCompile Include="src\Timer.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Entity.cpp" />
+    <ClCompile Include="src\CVector3.cpp" />
+    <ClCompile Include="src\EntityManager.cpp" />
+    <ClCompile Include="src\Component.cpp" />
+    <ClCompile Include="src\TextureLoader.cpp" />
+    <ClCompile Include="src\TextureManager.cpp" />
+    <ClCompile Include="src\debug\Logger.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Engine.h">
@@ -81,5 +88,13 @@
     <ClInclude Include="src\Timer.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="src\Entity.h" />
+    <ClInclude Include="src\CVector3.h" />
+    <ClInclude Include="src\EntityManager.h" />
+    <ClInclude Include="src\Component.h" />
+    <ClInclude Include="src\TextureLoader.h" />
+    <ClInclude Include="src\TextureManager.h" />
+    <ClInclude Include="src\Common.h" />
+    <ClInclude Include="src\debug\Logger.h" />
   </ItemGroup>
 </Project>
