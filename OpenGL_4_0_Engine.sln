@@ -5,11 +5,6 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGL_4_0_Engine", "OpenGL_4_0_Engine\OpenGL_4_0_Engine.vcxproj", "{759630AB-C219-4E5F-AC49-B5338E6205C5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SuperMarioGame", "SuperMarioGame\SuperMarioGame.vcxproj", "{2E6F9971-68B7-4931-83E2-731560B99D4A}"
-	ProjectSection(ProjectDependencies) = postProject
-		{759630AB-C219-4E5F-AC49-B5338E6205C5} = {759630AB-C219-4E5F-AC49-B5338E6205C5}
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
