@@ -269,24 +269,24 @@ bool Shader::SetShaderVec3Parameter(const char* name, Vector3 vec3)
 	return true;
 }
 
-//bool Shader::SetShaderSampler(const char* name, int slot, TextureLoader* texture)
-//{
-//	if(texture == NULL)
-//	{
-//		cout << "Shader::SetShaderSampler setting a null texture" << endl;
-//		return true;
-//	}
-//
-//	int locID = glGetUniformLocation(m_programID, name);
-//
-//	if (locID >= 0)
-//	{
-//		texture->Bind(slot);
-//		glUniform1i(locID, slot);
-//	}
-//
-//	return true;
-//}
+bool Shader::SetShaderSampler(const char* name, int slot, TextureLoader* texture)
+{
+	if(texture == NULL)
+	{
+		cout << "Shader::SetShaderSampler setting a null texture" << endl;
+		return true;
+	}
+
+	int locID = glGetUniformLocation(m_programID, name);
+
+	if (locID >= 0)
+	{
+		texture->Bind(slot);
+		glUniform1i(locID, slot);
+	}
+
+	return true;
+}
 
 void Shader::DeleteProgram()
 {
