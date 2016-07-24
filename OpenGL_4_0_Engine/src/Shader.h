@@ -9,6 +9,8 @@ using namespace std;
 #include "OGL.h"
 #include "MathCore.h"
 
+class TextureLoader;
+
 class Shader
 {
 public:
@@ -25,7 +27,7 @@ public:
 	bool SetShaderIntParameter(const char* name, int pValue);
 	bool SetShaderVec2Parameter(const char* name, Vector2 vec2);
 	bool SetShaderVec3Parameter(const char* name, Vector3 vec3);
-	//bool SetShaderSampler(const char* name, int slot, TextureLoader* texture);
+	bool SetShaderSampler(const char* name, int slot, TextureLoader* texture);
 
 	GLuint GetAttribute(const string& name);
 	unsigned int GetProgramID() { return m_programID; }
