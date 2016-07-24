@@ -35,7 +35,7 @@ void FrameWork::Initialize(GameComponent* pGameComponent, string projectName)
 	m_projectName = projectName;
 
 	m_iWindowWidth = SCREEN_WIDTH;
-	m_iWindowHeight = SCREE_HEIGHT;
+	m_iWindowHeight = SCREEN_HEIGHT;
 
 	if (!CreateOpenGLWindow((char*)m_projectName.c_str(), WIND_POSX, WIND_POSY, m_iWindowWidth, m_iWindowHeight))
 	{
@@ -210,7 +210,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	PAINTSTRUCT ps;
 	HDC hdc;
 
-	//input_manager* input = Engine::GetEngine()->GetInput();
+	Engine::GetEngine()->OnEventCallback(message, wParam, lParam);
 
 	switch ( message ) 
 	{
