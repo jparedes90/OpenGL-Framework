@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -11,37 +11,52 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\graphics\Camera.cpp" />
+    <ClCompile Include="src\Component.cpp" />
     <ClCompile Include="src\debug\Logger.cpp" />
-    <ClCompile Include="src\Engine.cpp" />
-    <ClCompile Include="src\FrameWork.cpp" />
-    <ClCompile Include="src\GameComponent.cpp" />
-    <ClCompile Include="src\Graphics.cpp" />
-    <ClCompile Include="src\MathCore.cpp" />
-    <ClCompile Include="src\OGL.cpp" />
-    <ClCompile Include="src\RecTangle.cpp" />
-    <ClCompile Include="src\Shader.cpp" />
-    <ClCompile Include="src\ShaderManager.cpp" />
-    <ClCompile Include="src\SpriteBatch.cpp" />
-    <ClCompile Include="src\TextureLoader.cpp" />
-    <ClCompile Include="src\TextureManager.cpp" />
+    <ClCompile Include="src\app\Engine.cpp" />
+    <ClCompile Include="src\Entity.cpp" />
+    <ClCompile Include="src\managers\EntityManager.cpp" />
+    <ClCompile Include="src\app\FrameWork.cpp" />
+    <ClCompile Include="src\app\GameComponent.cpp" />
+    <ClCompile Include="src\graphics\Graphics.cpp" />
+    <ClCompile Include="src\inputs\input_manager.cpp" />
+    <ClCompile Include="src\inputs\KeyBoardState.cpp" />
+    <ClCompile Include="src\inputs\MouseState.cpp" />
+    <ClCompile Include="src\maths\MathCore.cpp" />
+    <ClCompile Include="src\graphics\OGL.cpp" />
+    <ClCompile Include="src\graphics\RecTangle.cpp" />
+    <ClCompile Include="src\graphics\Shader.cpp" />
+    <ClCompile Include="src\managers\ShaderManager.cpp" />
+    <ClCompile Include="src\graphics\SpriteBatch.cpp" />
+    <ClCompile Include="src\graphics\TextureLoader.cpp" />
+    <ClCompile Include="src\managers\TextureManager.cpp" />
     <ClCompile Include="src\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\graphics\Camera.h" />
     <ClInclude Include="src\Common.h" />
+    <ClInclude Include="src\Component.h" />
     <ClInclude Include="src\debug\Logger.h" />
-    <ClInclude Include="src\Engine.h" />
-    <ClInclude Include="src\FrameWork.h" />
-    <ClInclude Include="src\GameComponent.h" />
-    <ClInclude Include="src\Graphics.h" />
-    <ClInclude Include="src\MathCore.h" />
-    <ClInclude Include="src\OGL.h" />
-    <ClInclude Include="src\RecTangle.h" />
-    <ClInclude Include="src\Shader.h" />
-    <ClInclude Include="src\ShaderManager.h" />
-    <ClInclude Include="src\SpriteBatch.h" />
+    <ClInclude Include="src\app\Engine.h" />
+    <ClInclude Include="src\Entity.h" />
+    <ClInclude Include="src\managers\EntityManager.h" />
+    <ClInclude Include="src\app\FrameWork.h" />
+    <ClInclude Include="src\app\GameComponent.h" />
+    <ClInclude Include="src\graphics\Graphics.h" />
+    <ClInclude Include="src\inputs\input_manager.h" />
+    <ClInclude Include="src\inputs\KeyBoardState.h" />
+    <ClInclude Include="src\inputs\Keys.h" />
+    <ClInclude Include="src\inputs\MouseState.h" />
+    <ClInclude Include="src\maths\MathCore.h" />
+    <ClInclude Include="src\graphics\OGL.h" />
+    <ClInclude Include="src\graphics\RecTangle.h" />
+    <ClInclude Include="src\graphics\Shader.h" />
+    <ClInclude Include="src\managers\ShaderManager.h" />
+    <ClInclude Include="src\graphics\SpriteBatch.h" />
     <ClInclude Include="src\SystemDefs.h" />
-    <ClInclude Include="src\TextureLoader.h" />
-    <ClInclude Include="src\TextureManager.h" />
+    <ClInclude Include="src\graphics\TextureLoader.h" />
+    <ClInclude Include="src\managers\TextureManager.h" />
     <ClInclude Include="src\Timer.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
