@@ -12,11 +12,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\graphics\Camera.cpp" />
-    <ClCompile Include="src\Component.cpp" />
     <ClCompile Include="src\debug\Logger.cpp" />
     <ClCompile Include="src\app\Engine.cpp" />
-    <ClCompile Include="src\Entity.cpp" />
-    <ClCompile Include="src\managers\EntityManager.cpp" />
     <ClCompile Include="src\app\FrameWork.cpp" />
     <ClCompile Include="src\app\GameComponent.cpp" />
     <ClCompile Include="src\graphics\Graphics.cpp" />
@@ -36,11 +33,8 @@
   <ItemGroup>
     <ClInclude Include="src\graphics\Camera.h" />
     <ClInclude Include="src\Common.h" />
-    <ClInclude Include="src\Component.h" />
     <ClInclude Include="src\debug\Logger.h" />
     <ClInclude Include="src\app\Engine.h" />
-    <ClInclude Include="src\Entity.h" />
-    <ClInclude Include="src\managers\EntityManager.h" />
     <ClInclude Include="src\app\FrameWork.h" />
     <ClInclude Include="src\app\GameComponent.h" />
     <ClInclude Include="src\graphics\Graphics.h" />
