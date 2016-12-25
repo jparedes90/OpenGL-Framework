@@ -3,7 +3,7 @@
 
 #define WIN32_LEAN_AND_MEAN
 
-#include "OGL.h"
+#include "../graphics/OGL.h"
 #include "Engine.h"
 #include <string>
 
