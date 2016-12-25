@@ -1,5 +1,5 @@
 #include "Engine.h"
-#include "SpriteBatch.h"
+#include "../graphics/SpriteBatch.h"
 #include "Timer.h"
 #include <iostream>
 using namespace std;
