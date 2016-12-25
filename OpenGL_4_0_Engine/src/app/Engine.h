@@ -1,12 +1,12 @@
 #ifndef ENGINE_H
 #define ENGINE_H
 
-#include "Graphics.h"
+#include "../graphics/Graphics.h"
 #include "GameComponent.h"
-#include "ShaderManager.h"
-#include "TextureManager.h"
+#include "../managers/ShaderManager.h"
+#include "../managers/TextureManager.h"
 #include "inputs\input_manager.h"
-#include "Camera.h"
+#include "../graphics/Camera.h"
 
 class Engine
 {
