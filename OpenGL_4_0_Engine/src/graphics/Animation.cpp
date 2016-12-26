@@ -1,6 +1,6 @@
 //Date: 5/13/13
 #include "Animation.h"
-#include "managers/TextureManager.h"
+#include "../managers/TextureManager.h"
 #include <assert.h>
 
 Animation::Animation()
