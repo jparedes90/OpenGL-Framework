@@ -3,7 +3,7 @@
 #define SHADER_MANAGER_H
 
 #include <map>
-#include "Shader.h"
+#include "../graphics/Shader.h"
 
 class ShaderManager
 {
