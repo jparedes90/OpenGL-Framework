@@ -3,7 +3,7 @@
 #define _INPUT_MANAGER_H
 #include "KeyBoardState.h"
 #include "MouseState.h"
-#include "../MathCore.h"
+#include "../maths/MathCore.h"
 
 class input_manager
 {
