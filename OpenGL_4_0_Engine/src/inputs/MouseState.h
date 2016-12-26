@@ -2,7 +2,7 @@
 #ifndef _MOUSE_STATE_H
 #define _MOUSE_STATE_H
 #include "Keys.h"
-#include "../MathCore.h"
+#include "../maths/MathCore.h"
 
 class MouseState
 {
