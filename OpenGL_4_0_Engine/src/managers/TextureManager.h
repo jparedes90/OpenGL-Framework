@@ -1,7 +1,7 @@
 //#pragma once
 #ifndef _TEXTURE_MANAGER_H
 #define _TEXTURE_MANAGER_H
-#include "TextureLoader.h"
+#include "../graphics/TextureLoader.h"
 
 #include <vector>
 
