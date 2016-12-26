@@ -7,7 +7,7 @@
 using namespace std;
 
 #include "OGL.h"
-#include "MathCore.h"
+#include "../maths/MathCore.h"
 
 class TextureLoader;
 
