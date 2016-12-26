@@ -8,6 +8,8 @@ public:
 	RecTangle(void);
 	RecTangle(float _left, float _top, float _width, float _height);
 	~RecTangle(void);
+	
+	void Set(float _left, float _top);
 
 	float GetLeft();
 	float GetRight();
