@@ -18,6 +18,14 @@ RecTangle::~RecTangle(void)
 {
 }
 
+void RecTangle::Set(float _left, float _top)
+{
+	m_left = _left;
+	m_right = m_left + m_width;
+	m_top = _top;
+	m_bottom = m_top + m_height;
+}
+
 float RecTangle::GetLeft()
 {
 	return m_left;
