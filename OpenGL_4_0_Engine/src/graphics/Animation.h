@@ -3,7 +3,7 @@
 #ifndef ANIMATED_ENTITY_H
 #define ANIMATED_ENTITY_H
 
-#include "graphics/TextureLoader.h"
+#include "../graphics/TextureLoader.h"
 #include "RecTangle.h"
 #include "SpriteBatch.h"
 
