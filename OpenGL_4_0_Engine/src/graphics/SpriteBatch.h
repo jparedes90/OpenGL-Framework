@@ -1,7 +1,7 @@
 #ifndef SPRITEBATCH_H
 #define SPRITEBATCH_H
 
-#include "MathCore.h"
+#include "../maths/MathCore.h"
 #include "RecTangle.h"
 #include "SystemDefs.h"
 
