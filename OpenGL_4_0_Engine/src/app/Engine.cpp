@@ -140,15 +140,15 @@ void Engine::Run()
 	m_graphics->EndScene();
 }
 
-void Engine::InitializeCamera(Entity* cameraEntity, float flNear, float flFar)
-{
-	m_camera = new Camera(cameraEntity);
-	m_camera->Initialize(PI / 4.0f, (float)(SCREEN_WIDTH / SCREEN_HEIGHT), flNear, flFar);
-	m_camera->CreateOrthoMatrix(0.0f, SCREEN_WIDTH, 0.0f, SCREEN_HEIGHT, 0.0f, 1.0f);
-	m_camera->SetLookAt(0, 0, -10);
-	m_camera->SetPosition(0, 0, 15.0f);
-	m_camera->Update(0.0f);
-}
+//void Engine::InitializeCamera(Entity* cameraEntity, float flNear, float flFar)
+//{
+//	m_camera = new Camera(cameraEntity);
+//	m_camera->Initialize(PI / 4.0f, (float)(SCREEN_WIDTH / SCREEN_HEIGHT), flNear, flFar);
+//	m_camera->CreateOrthoMatrix(0.0f, SCREEN_WIDTH, 0.0f, SCREEN_HEIGHT, 0.0f, 1.0f);
+//	m_camera->SetLookAt(0, 0, -10);
+//	m_camera->SetPosition(0, 0, 15.0f);
+//	m_camera->Update(0.0f);
+//}
 
 
 //Function: Release memory
