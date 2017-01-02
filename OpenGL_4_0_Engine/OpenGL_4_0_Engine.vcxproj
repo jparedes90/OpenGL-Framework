@@ -11,7 +11,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\graphics\Camera.cpp" />
     <ClCompile Include="src\debug\Logger.cpp" />
     <ClCompile Include="src\app\Engine.cpp" />
     <ClCompile Include="src\app\FrameWork.cpp" />
@@ -31,7 +30,6 @@
     <ClCompile Include="src\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\graphics\Camera.h" />
     <ClInclude Include="src\Common.h" />
     <ClInclude Include="src\debug\Logger.h" />
     <ClInclude Include="src\app\Engine.h" />
