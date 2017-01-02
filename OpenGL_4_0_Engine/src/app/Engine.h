@@ -6,7 +6,7 @@
 #include "../managers/ShaderManager.h"
 #include "../managers/TextureManager.h"
 #include "inputs\input_manager.h"
-#include "../graphics/Camera.h"
+//#include "../graphics/Camera.h"
 
 class Engine
 {
@@ -29,7 +29,7 @@ public:
 	//PostCondition: Shader Manager allocated
 	void InitializeShaderManager();
 
-	void InitializeCamera(class Entity* cameraEntity, float flNear, float flFar);
+	//void InitializeCamera(class Entity* cameraEntity, float flNear, float flFar);
 
 	//Function: Updates and Renders the Engine
 	//PostCondition: Engine is updated and rendered
@@ -51,7 +51,7 @@ public:
 	//PostCondition: Input object is returned
 	input_manager* GetInput();
 
-	const Camera* GetCamera()const { return m_camera; }
+	//const Camera* GetCamera()const { return m_camera; }
 
 	void OnEventCallback(UINT message, WPARAM wParam, LPARAM lParam);
 
@@ -66,7 +66,7 @@ private:
 	class SpriteBatch* m_spriteBatch;
 	ShaderManager* m_shaderManager;
 	TextureManager* m_textureManager;
-	Camera* m_camera;
+	//Camera* m_camera;
 };
 
 #endif
